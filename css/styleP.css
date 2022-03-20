@@ -1,0 +1,155 @@
+@font-face{
+    font-family: 'codebar';
+    src: url('cc.ttf');
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#papier{
+    width: 7cm;
+    height: 11cm;
+    border: 1px solid black;
+    background-color: white;
+    margin: auto;
+}
+
+.tete{
+    position: relative;
+    width: 7cm;
+    margin: auto;
+    top: 0.5cm;
+}
+
+#logo{
+    width: 2.5cm;
+    height: 2.5cm;
+    position: absolute;
+    left: 2.5cm;
+    top: 0.9cm;
+}
+
+.titre3, .titre5{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.titre4{
+    position: relative;
+    text-align: center;
+    top: 1.5cm;
+}
+
+hr{
+    position: relative;
+    top: 40px;
+    border-color: black;
+    border-style: solid;
+}
+
+.corps{
+    position: relative;
+    width: 7cm;
+    margin: auto;
+    top: 50px;  
+    background-size: 160px; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#dReference,
+#dMatricule,
+#dNom,
+#dCatTicket,
+#dPromotion,
+#dMotif,
+#dMontant,
+#dReste,
+#didAgent,
+#dDateParchass{
+    position: absolute;
+    left: 3cm;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 11pt;
+}
+
+#reference,
+#catTicket,
+#matricule,
+#nom,
+#promotion,
+#motif,
+#montant,
+#datePurchass
+{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+#datePaiement{
+    position: absolute;
+    left: 400px;
+    top: 0px;
+}
+
+#idAgent{
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+#dDatePaiement{
+    position: absolute;
+    left: 510px;
+    top: 0px;
+}
+
+#didAgent{
+    position: absolute;
+    left: 510px;
+    top: 20px;
+}
+
+#signature{
+    position: absolute;
+    left: 510px;
+}
+
+#codeBar{
+   position: absolute;
+   font-family: codebar;
+   font-size: 40px;
+   left: 1cm;
+   top: 4cm;
+}
+
+#ligneFin{
+    position: relative;
+    top: 3cm;
+    border-style: dashed;
+}
+
+.retour{
+    position: relative;
+    color: white;
+    top: 20px;
+    left: 450px;
+}
+
+.dateImp{
+    position: absolute;
+    right: 0;
+}
+
+#submit{
+    position: relative;
+    width: 200px;
+    left: 420px;
+    top: 20px;
+}
